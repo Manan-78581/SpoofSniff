@@ -1,0 +1,283 @@
+{
+    "cdn.growthbook.io": {
+        "type": "positive",
+        "ips": {
+            "A": "151.101.193.91"
+        },
+        "timestamp": 1751643819.0141842
+    },
+    "www.google.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.251.223.100",
+            "AAAA": "2404:6800:4002:826::2004"
+        },
+        "timestamp": 1751643713.9291253
+    },
+    "v10.events.data.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "13.89.179.14"
+        },
+        "timestamp": 1751643818.7295392
+    },
+    "settings-win.data.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "52.191.219.104"
+        },
+        "timestamp": 1751643819.7699306
+    },
+    "slscr.update.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "20.12.23.50",
+            "AAAA": "2603:1020:203:3::1e2"
+        },
+        "timestamp": 1751643725.5231142
+    },
+    "displaycatalog.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "20.43.150.84"
+        },
+        "timestamp": 1751643818.783554
+    },
+    "login.live.com": {
+        "type": "positive",
+        "ips": {
+            "A": "20.190.146.39"
+        },
+        "timestamp": 1751643819.8439784
+    },
+    "fe2cr.update.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "172.184.231.70",
+            "AAAA": "2603:1030:a07:16::4b7"
+        },
+        "timestamp": 1751643730.1755736
+    },
+    "login.microsoftonline.com": {
+        "type": "positive",
+        "ips": {
+            "A": "40.126.17.131",
+            "AAAA": "2603:1046:2000:90::8"
+        },
+        "timestamp": 1751643731.7505054
+    },
+    "graph.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "20.190.175.152",
+            "AAAA": "2603:1047:1:88::80"
+        },
+        "timestamp": 1751643732.672139
+    },
+    "download.windowsupdate.com": {
+        "type": "positive",
+        "ips": {
+            "A": "199.232.210.172",
+            "AAAA": "2a04:4e42:4f::684"
+        },
+        "timestamp": 1751643733.0750935
+    },
+    "fe3cr.delivery.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "40.69.42.241",
+            "AAAA": "2603:1030:7::106"
+        },
+        "timestamp": 1751643734.223184
+    },
+    "app.any.run": {
+        "type": "positive",
+        "ips": {
+            "A": "104.22.49.74",
+            "AAAA": "2606:4700:8d96:188d:37a8:0:1655:1f1b"
+        },
+        "timestamp": 1751643744.2402651
+    },
+    "google.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.193.110",
+            "AAAA": "2404:6800:4002:825::200e"
+        },
+        "timestamp": 1751643744.9250844
+    },
+    "beacons.gcp.gvt2.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.29.94",
+            "AAAA": "2404:6800:4013:811::5e"
+        },
+        "timestamp": 1751643745.0125554
+    },
+    "tsfe.trafficshaping.dsp.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "52.183.205.142"
+        },
+        "timestamp": 1751643816.85542
+    },
+    "geo.prod.do.dsp.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "13.74.139.29"
+        },
+        "timestamp": 1751643814.7281783
+    },
+    "cp501.prod.do.dsp.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "104.101.18.35"
+        },
+        "timestamp": 1751643815.0407321
+    },
+    "15.au.download.windowsupdate.com": {
+        "type": "positive",
+        "ips": {
+            "A": "43.174.32.194"
+        },
+        "timestamp": 1751643815.7783031
+    },
+    "kv601.prod.do.dsp.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "104.101.16.20"
+        },
+        "timestamp": 1751643816.4648776
+    },
+    "mobile.events.data.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "52.182.143.213"
+        },
+        "timestamp": 1751643819.9539418
+    },
+    "cp601.prod.do.dsp.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "104.101.16.20"
+        },
+        "timestamp": 1751643817.5389938
+    },
+    "geover.prod.do.dsp.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "104.101.18.35"
+        },
+        "timestamp": 1751643817.5955327
+    },
+    "lh3.google.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.193.14",
+            "AAAA": "2404:6800:4002:823::200e"
+        },
+        "timestamp": 1751643794.0205338
+    },
+    "ogads-pa.clients6.google.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.193.10",
+            "AAAA": "2404:6800:4002:806::200a"
+        },
+        "timestamp": 1751643794.1843414
+    },
+    "lh3.googleusercontent.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.182.161",
+            "AAAA": "2404:6800:4002:820::2001"
+        },
+        "timestamp": 1751643794.3190095
+    },
+    "play.google.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.195.14",
+            "AAAA": "2404:6800:4002:826::200e"
+        },
+        "timestamp": 1751643795.5630167
+    },
+    "optimizationguide-pa.googleapis.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.193.138",
+            "AAAA": "2404:6800:4002:824::200a"
+        },
+        "timestamp": 1751643796.2018578
+    },
+    "assets.msn.com": {
+        "type": "positive",
+        "ips": {
+            "A": "49.44.50.80",
+            "AAAA": "2405:200:1604::312c:5f9a"
+        },
+        "timestamp": 1751643796.8974783
+    },
+    "dl.delivery.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "49.44.175.147",
+            "AAAA": "2a04:4e42:4e::684"
+        },
+        "timestamp": 1751643800.7162452
+    },
+    "1D.tlu.dl.delivery.mp.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "199.232.214.172",
+            "AAAA": "2a04:4e42:4e::684"
+        },
+        "timestamp": 1751643801.149331
+    },
+    "self.events.data.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "20.42.73.30"
+        },
+        "timestamp": 1751643815.217851
+    },
+    "clients4.google.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.194.238",
+            "AAAA": "2404:6800:4002:804::200e"
+        },
+        "timestamp": 1751643810.8542788
+    },
+    "watson.events.data.microsoft.com": {
+        "type": "positive",
+        "ips": {
+            "A": "20.189.173.22"
+        },
+        "timestamp": 1751643817.8270316
+    },
+    "ogs.google.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.194.174",
+            "AAAA": "2404:6800:4002:81f::200e"
+        },
+        "timestamp": 1751643818.6432993
+    },
+    "www.gstatic.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.67.67",
+            "AAAA": "2404:6800:4002:816::2003"
+        },
+        "timestamp": 1751643819.0847113
+    },
+    "ssl.gstatic.com": {
+        "type": "positive",
+        "ips": {
+            "A": "142.250.192.163",
+            "AAAA": "2404:6800:4002:81d::2003"
+        },
+        "timestamp": 1751643819.1632056
+    }
+}

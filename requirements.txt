@@ -1,0 +1,3 @@
+# SpoofSniff Project Dependencies
+scapy
+dnspython
