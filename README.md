@@ -1,10 +1,17 @@
-# SpoofSniff: Real-time DNS Spoofing Detection
+# 🛡️SpoofSniff: Real-time DNS Spoofing Detection
 
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
-
+```
+ ____                     __ ____        _  __  __ 
+/ ___| _ __   ___   ___  / _/ ___| _ __ (_)/ _|/ _|
+\___ \| '_ \ / _ \ / _ \| |_\___ \| '_ \| | |_| |_ 
+ ___) | |_) | (_) | (_) |  _|___) | | | | |  _|  _|
+|____/| .__/ \___/ \___/|_| |____/|_| |_|_|_| |_|  
+      |_|                                          
+```
 ## 💡 Overview
 
 **SpoofSniff** is a robust, Python-based network monitoring tool designed to detect various forms of DNS (Domain Name System) spoofing and cache poisoning attacks in real-time on a local network. It acts as an essential security layer, scrutinizing DNS traffic to ensure that domain resolutions are legitimate and untampered.
