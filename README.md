@@ -44,6 +44,50 @@ SpoofSniff addresses this critical vulnerability by providing an immediate alert
 * **`threading` & `queue`:** For concurrent operations, ensuring the GUI remains responsive while the sniffer runs in a separate thread.
 * **`json`:** For persistent storage and loading of the DNS cache.
 
+## 🏛️ System Architecture
+
+SpoofSniff's design promotes modularity and clarity, with distinct components handling packet capture, trusted resolution, and user interaction. Below is a block diagram illustrating the data flow and component interactions:
+
+```mermaid
+flowchart TD
+  Attacker[Attacker Machine]
+  ExtNet[External Network]
+  UserClient[User's Device/Client]
+  NetInterface[Local Network Interface]
+  Sniffer[sniffer.py]
+  Resolver[resolver.py]
+  PendingCache[Pending Queries Cache]
+  TrustedDNS[Trusted Public DNS Servers]
+  GUI[GUI: gui.py]
+  Logs[System Logs/Alerts]
+  CacheFile[cache.json]
+  Logic[Detection Logic]
+
+  Attacker --> NetInterface
+  Attacker --> ExtNet
+  UserClient --> NetInterface
+  NetInterface --> Sniffer
+  NetInterface --> Sniffer
+
+  Sniffer --> PendingCache
+  Sniffer --> Resolver
+  Sniffer --> Logic
+  Sniffer --> GUI
+  Sniffer --> Logs
+
+  PendingCache --> Logic
+  Logic --> Sniffer
+
+  Resolver --> TrustedDNS
+  Resolver --> CacheFile
+  CacheFile --> Resolver
+  Resolver --> Sniffer
+
+  GUI --> Logs
+
+```
+
+
 ## 🚀 Getting Started
 
 Follow these steps to get SpoofSniff up and running on your system.
